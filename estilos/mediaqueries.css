@@ -1,0 +1,56 @@
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, rgb(103, 148, 253), rgb(29, 29, 129));
+    }
+    
+    section#login {
+        width: 85vw;
+        display: flex;
+        height: 400px;
+        line-height: 28px;
+    }
+    section#login > div#imagem {
+        width: 40%;
+        height: 100%;
+    }
+    .form{
+     margin-top: 50px;
+    }
+    div#form > p {
+        margin-bottom: 50px;
+        font-size: 1.2em;
+    }
+    a {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (min-width: 992px)  {
+    body{
+        background-image: linear-gradient(to top, rgb(103, 148, 253), rgb(29, 29, 129));
+    }
+    
+    section#login {
+        width: 990px;
+        display: inline-block;
+        height: 400px;
+        line-height: 38px;
+    }
+    section#login > div#imagem {
+        width: 40%;
+        height: 100%;
+        float: right;
+    }
+    section#login > div#form {
+        
+        float: left;
+    }
+    div#form > p {
+        margin-bottom: 50px;
+        font-size: 1.2em;
+    }
+    a {
+        margin-top: 60px;
+    }
+}
